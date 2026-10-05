@@ -1,0 +1,34 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Crux</title>
+        <item>
+            <title>0.4.0</title>
+            <pubDate>Mon, 05 Oct 2026 12:41:07 -0400</pubDate>
+            <sparkle:version>316</sparkle:version>
+            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Crux 0.4.0 (build 316)
+
+This is the first update delivered through Crux itself. From now on, new builds arrive here; you won't need to download them from the shared folder.
+
+## Fixed
+
+- **Crux no longer quits after your Mac sleeps.** This happened when the Controls module was on.
+- **The hub closes when you move away.** It could stay open if it had opened while the pointer was just beside the notch.
+- **No more "shortcut has been run" notices** each time the hub opens with Focus on. Crux now only runs its Focus shortcut when a Focus turns on, or when you tap a Focus button.
+- **Volume and brightness pop-ups go away on time,** and hovering near one no longer opens the hub.
+- **The settings gear no longer covers Media's mute button.**
+
+## Improved
+
+- **Smoother open and close.** The hub drops out of the notch as a narrow column and spreads once it's below the menu bar, then folds back the same way.
+
+Already on build 315? You have all of the above; installing this one confirms updates reach you.
+
+Found something off? Settings ▸ General ▸ Copy Diagnostics, and send it along with what happened.
+]]></description>
+            <enclosure url="https://cruzlogic.github.io/updates/Crux-0.4.0+35f5a3c.dmg" length="5064991" type="application/octet-stream" sparkle:edSignature="iyScarTwocfSbpjUIAu4RQEi9/OyWjnT1JddxAQ//oFkSqvrj/BBH/kt60a8TVvYPDNSbMBAq+y3ppF5OaTNBw=="/>
+        </item>
+    </channel>
+</rss>
